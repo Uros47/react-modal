@@ -1,0 +1,32 @@
+:root {
+  --main-blue-color: lightskyblue;
+  --box-shadow-color: rgba(0, 0, 0, 0.2);
+  --main-background-color: rgba(44, 166, 248, 0.185);
+}
+
+.App {
+  height: 20000px;
+}
+
+.no-scroll {
+  position: fixed;
+  overflow-y: scroll;
+}
+
+body {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+button {
+  width: 10rem;
+  max-width: 10rem;
+  min-width: 5rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--main-blue-color);
+  border-color: var(--main-blue-color);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
